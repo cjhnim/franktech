@@ -109,3 +109,21 @@ git 를 초기화하고 필요한 파일은 추가하고 불필요한 파일은 
 ```console
 git commit -m 'initial commit'
 ```
+
+## push 하기
+
+원격 레파지터리에 파일을 보내려면 push를 해야 한다
+origin은 원격 레파지터리에 대한 이름이고 master는 브랜치 이름이다.
+
+```console
+git push origin master
+```
+
+## pull 하기
+
+push하려하다가 만약 원격 레파지터리 대비 로컬 레파지터리가 최신이 아니라면 push하기 전에 먼저 pull을 통해 최신 변경사항을 다운 받아야 한다.
+
+```console
+git pull origin master
+```
+

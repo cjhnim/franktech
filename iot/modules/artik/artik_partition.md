@@ -3,6 +3,7 @@
 ## ARTIK05X 파티션 정보
 
 artik05x에 대한 파티션 정보는 SamsungARTIK github에서 찾을 수 있었습니다.
+
 * <https://github.com/SamsungARTIK/TizenRT/blob/artik/build/configs/artik05x/scripts/partition_map.cfg>
 
 각 영역에 대하여 바이너리를 다운로드하면 펌웨어 다운이 가능할 것으로 예상됩니다.
@@ -30,6 +31,7 @@ set partition_list {
 
 이번엔 ARTIK05X가 아닌 ARTIK053에 대한 PIT 파일을 찾았습니다. 파티션 정보를 json 형태로 기술해놓고 있었습니다..\
 모든 파티션을 기술한 것이 아니라 BL1, BL2, SSS, WLAN, OS 등 몇개의 파티션만 기술이 되어 있는 상태입니다.
+
 * <https://github.com/SamsungARTIK/TizenRT/blob/artik/build/configs/artik053/scripts/artik053.pit>
 
 ```javascript
@@ -69,5 +71,7 @@ set partition_list {
    ]
 }
 ```
+
 ## 결론(???)
+
 ARTIK05X의 파티션 정보와 파티션 정보를 기록하고 있는 PIT 파일을 SamsungARTIK github에서 찾을 수 있었습니다. 아직 이 정보를 가지고 무엇을 할 수 있는 것은 아니지만, 누군가에게는 도움이 될 수도 있을 것이라는 생각에 정보를 정리해두었습니다. 추후에 좀더 의미있는 정보를 알아내면 문서를 갱신하도록 하겠습니다.
