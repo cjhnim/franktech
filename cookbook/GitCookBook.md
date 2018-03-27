@@ -127,3 +127,40 @@ push하려하다가 만약 원격 레파지터리 대비 로컬 레파지터리�
 git pull origin master
 ```
 
+## 파일 수정 후 커밋하기
+
+이제 initial commit을 해봤다. 이제 작업을 하면 수정된 파일이 나올 것이다.
+
+```console
+PS C:\git\github\franktech> git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   cookbook/GitCookBook.md
+        modified:   iot/modules/artik/artik_partition.md
+```
+
+이 파일을 커밋하기 위해서는 staged 상태로 바꿔야 한다. 위의 메세지에서 보다시피 현재는 not staged 상태이다.\
+staged 상태로 만들기 위해서는 repository에 추가하기 위히 사용했던 add 명령을 다시 사용한다
+
+```console
+git add .
+```
+
+그리고 커밋 한다
+
+```console
+git commit -m 'gitcookbook과 artik_partition 수정'
+```
+
+## diff 보기
+
+파일 커밋하기 전에 diff 를 미리 보고 커밋 메세지를 어떤 내용을 적을까 고민도 해보고 소스코드를 정리하기도 한다
+아래처럼 diff 명령에 HEAD를 주면 최신 커밋과 현재 변경사항사이의 diff 를 볼 수 있다
+
+```console
+git diff HEAD
+```
