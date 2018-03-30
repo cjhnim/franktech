@@ -18,7 +18,7 @@ cmake CMakeLists.txt
 make
 ```
 
-## gtest를 통하여 thread 100개와 process 1000개 테스트 실행해보기
+## gtest를 통하여 thread 1000개와 process 1000개 테스트 실행해보기
 
 ```shell
 ./fork_vs_pthread --gtest_filter=**_1000*
