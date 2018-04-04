@@ -20,7 +20,12 @@
 * ps
 * Tizen에서의 thread 관리방식
 
+homework
+
+* 쓰레드 10개 생성하고 기다려보기
+* tash_cmd_install을 통하여 테스트 케이스 등록하기
+
 ## 특강
 
-* 벡터
+* 트렌드와 벡터
 
