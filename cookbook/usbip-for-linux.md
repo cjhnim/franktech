@@ -8,7 +8,7 @@
     ```
 2. 커널모듈 올리기
     ```bash
-    sudo modprobe usbip-host
+    sudo modprobe usbip_host
     ```
 3. 데몬 실행
     ```bash
@@ -29,7 +29,7 @@
     Server와 동일하게 설치 및 실행
 2. 커널모듈 올리기
     ```bash
-    sudo modprobe vhci-hcd
+    sudo modprobe vhci_hcd
     ```
 3. Server의 USB 장치 리스트 보기
     ```bash
