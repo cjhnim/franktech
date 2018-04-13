@@ -44,7 +44,7 @@
     sudo /usr/lib/linux-tools/`uname -r`/usbip port
     ```
 
-## 부록: USB 메모리 원격 연결시 속도 측정
+## 부록1: USB 메모리 원격 연결시 속도 측정
 
 ### Server 측정 (physically connected)
 
@@ -78,3 +78,7 @@ test@test:/media/test/BE72-5066$ dd if=./largefile of=/dev/null bs=8k
 10000+0 records out
 81920000 bytes (82 MB, 78 MiB) copied, 91.0599 s, 900 kB/s
 ```
+
+## 부록2: usbip 프로토콜 살펴보기
+
+* https://github.com/torvalds/linux/blob/master/Documentation/usb/usbip_protocol.txt
