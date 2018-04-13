@@ -8,8 +8,9 @@
 ## 강의 노트 : Tizen RT
 
 ### Tizen RT Overview
+
 자세한 설명은 첨부 문서를 참고하고 아래는 그에 대한 요약입니다.\
-[Download: Tizen RT Overview.PDF](https://developer.artik.io/downloads/3a6d6253-a28a-476d-97ba-3ba3d8bd537d/download)
+* [Download: Tizen RT Overview.PDF](https://developer.artik.io/downloads/3a6d6253-a28a-476d-97ba-3ba3d8bd537d/download)
 
 Summary
 
